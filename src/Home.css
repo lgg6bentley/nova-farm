@@ -1,0 +1,50 @@
+/* src/Home.css */
+.home {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.hero {
+  background-image: url('https://wallpaperaccess.com/full/9050896.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay for text contrast */
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #388e3c;
+}
+
+.mission, .cta {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+}

@@ -1,0 +1,52 @@
+/* src/investorsPage.css */
+.investors-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .investors-page header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .investors-page section h2 {
+    color: #0073e6;
+    margin-top: 20px;
+  }
+  
+  .investors-page .financials ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .investors-page .financials li {
+    margin-bottom: 10px;
+  }
+  
+  .investors-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .investors-page form label {
+    margin-bottom: 10px;
+  }
+  
+  .investors-page form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .investors-page form button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .investors-page form button:hover {
+    background-color: #005bb5;
+  }
+  
